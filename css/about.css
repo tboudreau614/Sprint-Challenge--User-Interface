@@ -121,16 +121,20 @@ header div {
 button {
     width: 100px;
     height: 35px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 15px;
 }
 
 .cont-p {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     margin-top: 0px;
     margin-left: 300px;
     margin-right: 300px;
-    border: 2px solid red;
     align-items: center;
 }
 
@@ -142,9 +146,10 @@ footer {
 
 
 .cont-f {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 350px;
+    margin-right: 325px;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 footer nav {
